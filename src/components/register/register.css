@@ -1,0 +1,87 @@
+.register{
+    width:400px;
+    background: white;
+    border:1px solid #dddfe2;
+    box-shadow: 0 2px 4px rgb(0 0 0 /10%),0 8px 16px rgb(0 0 0/10%);
+    border-radius:8px;
+    padding:3rem;
+    align-items: center;
+    text-align: center;
+}
+.register > input{
+    border-radius:8px;
+    border:2px solid #dddfe2;
+    outline:none;
+    color:black;
+    margin:0.5rem 0;
+    padding:0.5rem 0.75rem;
+    width:100%;
+    font-size:1rem;
+}
+.register > .button{
+    background: green;
+    border:1px solid green;
+    color:white;
+    font-size:1.25rem;
+    padding:0.5rem;
+    margin:0.5rem 0;
+    border-radius:8px;
+    outline:none;
+    cursor:pointer;
+}
+/* .password-policies{
+    transform: translate((-50%));
+    padding:10px;
+    margin:10px;
+    opacity: 1;
+    overflow: hidden;
+}
+.password-policies.active{
+    opacity: 1;
+    padding:10px;
+}
+.password-policies >div{
+    margin:15px 10px;
+    font-weight:600;
+    color:#888;
+
+}
+.password-policies >div.active{
+    color:green;
+} */
+
+#show_hide{
+    margin-left: 428px;
+}
+
+
+.container p{
+    opacity: 0.5;
+    transition: 0.3s;
+}
+.container p span{
+    margin-left: 45px;
+}
+.faTimes{
+    opacity: 0;
+}
+.faCheck{
+    opacity: 1;
+}
+.container p .icon {
+    position: absolute;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    line-height: 30px;
+    border-radius: 50%;
+    color: rgb(26, 43, 68);
+    border: 1px solid rgb(26, 43, 68);
+  }
+
+#show_hide {
+    color: rgb(26, 43, 68);
+    font-size: 18px;
+    transform: translateX(-30px) translateY(-34px);
+    cursor: pointer;
+  }
